@@ -1,8 +1,10 @@
 
 
 // Set Yngreleger.no deadline
-var deadline = 'April 21 2016 16:00:00 GMT+01:00';
-console.log("Deadline for yngreleger.no-redirect set to " + deadline);
+var deadline = 'April 21 2016 15:00:00 GMT+01:00';
+
+// Set redirect address
+var redirect = "http://yl.dev.wja.no/";
 
 // Countdown code for yngreleger.no launch
 function getTimeRemaining(endtime) {
@@ -37,6 +39,7 @@ function initializeClock(id, endtime) {
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
+      window.location.href = redirect;
     }
   }
 
