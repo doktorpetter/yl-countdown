@@ -1,7 +1,7 @@
 
 
 // Set Yngreleger.no deadline
-var deadline = 'April 21 2016 15:00:00 GMT+01:00';
+var deadline = '2016-04-21T14:00:00Z';
 
 // Set redirect address
 var redirect = "http://yl.dev.wja.no/";
